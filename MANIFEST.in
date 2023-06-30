@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gaxiswrapper *.css
+recursive-include gaxiswrapper *.csv
+recursive-include gaxiswrapper *.html
+recursive-include gaxiswrapper *.ico
+recursive-include gaxiswrapper *.js
+recursive-include gaxiswrapper *.json
+recursive-include gaxiswrapper *.md
+recursive-include gaxiswrapper *.png
+recursive-include gaxiswrapper *.py
+recursive-include gaxiswrapper *.svg
+recursive-include gaxiswrapper *.txt
+recursive-exclude gaxiswrapper *.pyc
