@@ -6,9 +6,22 @@ app_publisher = "shubham"
 app_description = "gaxis"
 app_email = "ghareshubham88@gmail.com"
 app_license = "aa"
+app_logo_url = "/assets/gaxiswrapper/images/branding/gaxis-with-arrow-white-border.png"
 
 # Includes in <head>
 # ------------------
+app_include_css = "/assets/gaxiswrapper/css/gaxis-desk.css"
+
+# include js, css files in header of web template
+web_include_css = "/assets/gaxiswrapper/css/gaxis-web-all.css"
+
+after_install = "gaxiswrapper.install.after_install"
+after_migrate="gaxiswrapper.install.after_install"
+
+website_context = {
+    "favicon": "/assets/gaxiswrapper/images/branding/arrow.png"
+}
+
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/gaxiswrapper/css/gaxiswrapper.css"

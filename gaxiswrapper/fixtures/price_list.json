@@ -1,0 +1,42 @@
+[
+ {
+  "buying": 1,
+  "countries": [
+   {
+    "country": "India",
+    "parent": "Standard Buying",
+    "parentfield": "countries",
+    "parenttype": "Price List"
+   }
+  ],
+  "currency": "INR",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2023-03-21 11:38:59.818757",
+  "name": "Standard Buying",
+  "price_list_name": "Standard Buying",
+  "price_not_uom_dependent": 0,
+  "selling": 0
+ },
+ {
+  "buying": 0,
+  "countries": [
+   {
+    "country": "India",
+    "parent": "Standard Selling",
+    "parentfield": "countries",
+    "parenttype": "Price List"
+   }
+  ],
+  "currency": "INR",
+  "docstatus": 0,
+  "doctype": "Price List",
+  "enabled": 1,
+  "modified": "2023-03-21 11:39:21.573887",
+  "name": "Standard Selling",
+  "price_list_name": "Standard Selling",
+  "price_not_uom_dependent": 0,
+  "selling": 1
+ }
+]

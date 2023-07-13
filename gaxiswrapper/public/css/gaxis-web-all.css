@@ -1,0 +1,30 @@
+/* Navbar after login */
+.navbar {
+    background-color: #f9B101 !important;
+}
+
+.web-footer {
+    background-color: transparent !important;
+    border-top: none !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
+
+.web-footer .footer-info .footer-col-left {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.25em;
+}
+
+.web-footer .footer-info .footer-col-right {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.25em;
+}
+
+@media only screen and (max-width: 600px) {
+    .web-footer .footer-info .footer-col-right {
+        display: none !important;
+    }
+}

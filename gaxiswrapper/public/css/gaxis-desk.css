@@ -1,0 +1,35 @@
+/* The app logo in the top left corner after login */
+.app-logo {
+    width: auto !important;
+}
+
+/* Navbar after login */
+.navbar {
+    background-color: #f9B101 !important;
+}
+
+/* Module Title text */
+.title-text {
+    color: #da5d19 !important;
+}
+
+/* Other headings */
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #da5d19 !important;
+}
+
+/* Navbar */
+.notifications-seen .icon {
+    fill: white;
+}
+
+.dropdown-help {
+    padding: 5px 8px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* Hide Print Button */
+button:has(span[data-label="Print"]) {
+    display: none;
+}
